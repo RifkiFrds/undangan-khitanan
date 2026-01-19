@@ -1,20 +1,40 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+## Project Undangan Khitan
 
-# Run and deploy your AI Studio app
+### 📋 Deskripsi
+Aplikasi web untuk membuat dan mengelola undangan acara khitanan secara digital.
 
-This contains everything you need to run your app locally.
+### 🏗️ Arsitektur
+- **Frontend**: React + TypeScript
+- **Backend**: Node.js
+- **Database**: Supabase
+- **Deployment**: Vercel
 
-View your app in AI Studio: https://ai.studio/apps/drive/1WjgdfD4Z9pWOJPPKakmxY_zStCh6BaPM
+### 🛠️ Tech Stack
+- Framework: React 18
+- Language: TypeScript
+- UI Library: Tailwind CSS
+- State Management: React Hooks
+- API: REST API 
+- Authentication: Supabase Auth
+- Real-time: Supabase Realtime
+- Version Control: Git
 
-## Run Locally
+### ⚙️ Instalasi
+```bash
+git clone <repository>
+cd undangan-khitanan
+npm install
+npm run dev
+```
 
-**Prerequisites:**  Node.js
+### 📦 Fitur Utama
+- Buat undangan khusus dengan preview
+- Kelola daftar tamu
+- RSVP digital & komentar
+- Galeri foto acara
+- Kontrol audio & fullscreen
+- AI-powered gift suggestions
+- Export/share undangan
 
-
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+### 📄 Lisensi
+MIT
