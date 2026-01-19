@@ -87,8 +87,16 @@ export const GiftSection: React.FC<GiftSectionProps> = ({ donation, multiDonatio
                         )}
                     </div>
 
-                    <div className="bg-java-cream p-3 md:p-4 text-center border-t border-java-gold/10">
-                        <p className="text-xs text-gray-500 italic">Mohon konfirmasi setelah melakukan transfer</p>
+                    <div className="bg-java-cream p-2 md:p-6 text-center border-t border-java-gold/10">
+                        <p className="text-sm text-gray-500 mb-4 italic">Terima kasih atas kehadiran dan dukungan Anda. Doa dan berkah Anda sangat berarti bagi kami.</p>
+                        <a
+                            href="https://wa.me/6281212288898?text=Assalamu%27alaikum%20wr.wb.%20Saya%20ingin%20mengkonfirmasi%20kehadiran"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="inline-flex items-center gap-2 px-3 py-1.5 bg-green-600 hover:bg-green-700 text-white font-semibold rounded-full transition-all shadow-md hover:scale-105"
+                        >
+                            Konfirmasi ke WhatsApp
+                        </a>
                     </div>
                 </div>
             </div>

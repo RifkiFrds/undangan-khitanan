@@ -16,7 +16,7 @@ function App() {
 
         // Event 1: Pengajian
         secondEventDate: '2026-02-01',
-        secondEventTime: '16.00 WIB',
+        secondEventTime: '09.00 WIB',
         secondEventName: 'Hajatan khitanan',
 
         // Event 2: Tasyakuran
@@ -38,27 +38,22 @@ function App() {
             "/galeri-3.jpg",    
         ],
         donation: { // Fallback
-            bankName: 'BNI',
-            accountNumber: '0527484313',
-            accountHolder: 'Dewi Pujianasari'
+                bankName: 'BCA',
+                accountNumber: '1084306200',
+                accountHolder: 'Ano Abdilah'
         },
         multiDonations: [
             {
-                bankName: 'BNI',
-                accountNumber: '0527484313',
-                accountHolder: 'Dewi Pujianasari'
-            },
-            {
                 bankName: 'BCA',
-                accountNumber: '2730561302',
-                accountHolder: 'Dewi Pujianasari'
+                accountNumber: '1084306200',
+                accountHolder: 'Ano Abdilah'
             }
         ]
     });
 
     const [aiContent] = useState<GeneratedContent>({
         quote: "Ya Allah, muliakanlah anak kami ini, panjangkanlah umurnya, terangilah hatinya, teguhkanlah imannya, perbaikilah amal perbuatannya, lapangkanlah rezekinya, dekatkanlah pada kebaikan dan jauhkanlah dari keburukan. Ya Allah, kabulkanlah permohonan kami Ridhoilah keinginan kami dan terimalah amal kebaikan kami. Semoga engkau melimpahkan sholawat dan salam atas junjungan Nabi SAW, Keluarga dan para sahabatnya.",
-        wetonAnalysis: "Sabtu Kliwon & Minggu Legi: Waktu yang sangat baik untuk hajat besar, melambangkan keteguhan hati dan keberkahan yang melimpah."
+        wetonAnalysis: "Sabtu Malam & Hari Minggu: Waktu yang sangat baik untuk hajat besar, melambangkan keteguhan hati dan keberkahan yang melimpah."
     });
 
     return (

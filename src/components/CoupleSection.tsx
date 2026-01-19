@@ -41,7 +41,7 @@ export const CoupleSection: React.FC<CoupleSectionProps> = ({ data, aiContent, i
                         <p className="text-java-brown font-sans text-base md:text-lg max-w-md leading-relaxed px-4">{groomParents}</p>
                         {isKhitanan && (
                             <div className="mt-6 md:mt-8 bg-java-cream px-6 md:px-8 py-3 md:py-4 rounded-xl border border-java-gold/30 shadow-sm relative overflow-hidden">
-                                <p className="text-java-gold-dark font-bold font-display italic text-lg md:text-2xl relative z-10">{aiContent?.wetonAnalysis ? aiContent.wetonAnalysis.split(':')[0] : 'Sabtu Kliwon'}</p>
+                                <p className="text-java-gold-dark font-bold font-display italic text-lg md:text-2xl relative z-10">{aiContent?.wetonAnalysis ? aiContent.wetonAnalysis.split(':')[0] : 'Sabtu malam'}</p>
                             </div>
                         )}
                     </div>
