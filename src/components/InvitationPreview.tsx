@@ -19,6 +19,7 @@ import { EventSection } from './EventSection';
 import { GallerySection } from './GallerySection';
 import { GiftSection } from './GiftSection';
 import { CommentSection } from './CommentSection';
+import { KhitanQuote } from './KhitanQuote';
 import { CommentModal } from './CommentModal';
 import { FooterSection } from './FooterSection';
 import { Navbar } from './Navbar';
@@ -127,9 +128,9 @@ const InvitationPreview: React.FC<InvitationPreviewProps> = ({ data, aiContent }
                 headerTitle={headerTitle}
                 isKhitanan={isKhitanan}
             />
-
+             {isKhitanan && <KhitanQuote />}
             <QuoteSection aiContent={aiContent} />
-
+        
             <OpeningSection eventType={data.eventType} />
 
             <CoupleSection
